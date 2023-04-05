@@ -1,0 +1,88 @@
+$color-1: #003DA5;
+$color-2: #EF3340;
+$color-3: #090909;
+$color-4:#61dafb;
+$color-5: salmon;
+$color-6: #454242;
+$white: white;
+
+$margin: 8rem 10rem;
+
+@mixin font{
+  font-family: 'Josefin Sans', sans-serif;
+  //font-family: 'Raleway', sans-serif;
+  //font-weight: 400;
+  //font-size: 1rem;
+  line-height: 2rem;
+}
+
+@mixin verticalCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin horizontalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+#root{
+  @include font;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root::before{
+  content: "";
+  background: url("../assets/img/drapeau-sur-plancher-noir.jpg") no-repeat center center fixed ;
+  background-size: 100% 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity: 0.5;
+  z-index:-1;
+  min-width: 1024px;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1{
+  margin-bottom: 2rem;
+  color: $color-3;
+}
+h3{
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+p{
+  text-align: justify;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: $margin;
+  font-weight: 500;
+  flex: 1;
+  width: 80%;
+}

@@ -1,0 +1,57 @@
+.carte {
+  position: relative;
+  height:350px;
+  width: 350px;
+  border-radius: 4px;
+  transition: 0.3s;
+  margin-top: 50px;
+  
+  h3 {
+    font-size: 1.4rem;
+    padding: 2px 0;
+  }
+
+  h4{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2px 0;
+  }
+    p{
+      font-size: 0.8rem;
+
+    }
+    &:hover {
+      transform: scale(1.2);
+      z-index: 2;
+    }
+
+    &:hover .infos {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background: rgba(0, 0, 0, 0.7);
+    color: $white;
+    //height: 100%;
+    width: 65%;
+   // display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: 0.3s;
+  }
+  img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}

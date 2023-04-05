@@ -1,0 +1,318 @@
+[
+
+
+{
+    "Titre": "Fanm ogouh",
+    "Dimension": "29cm x 29cm",
+    "Auteur": "Pizaro",
+    "Techniques": "Acrylique sur toile", 
+    "Style": "Abstrait expressionniste",
+    "Image":"./photos/Fanm-ogouh.jpg", 
+    "Tarif": "250 €"
+},
+
+
+{
+    "Titre" : "Bouske lavi", 
+    "Dimension" : "50cm x 40cm",
+    "Auteur" : "Pizaro" ,
+    "Techniques" : "Acrylique sur toile",
+    "Image":"./photos/bouske-lavi5.jpg",
+    "Tarif": "600 €"
+},
+
+{
+    "Titre" : "Bouske lavi", 
+    "Dimension" : "60cm x 50cm",
+    "Auteur" : "Pizaro", 
+    "Techniques" : "Acrylique sur toile", 
+    "Style" : "Figuratif",
+    "Image":"./photos/bouske-lavi2.jpg",
+    "Tarif": "500 €"
+},
+
+{
+    "Titre" : "Bouske lavi",
+    "Dimension" : "20cm x 20cm",
+    "Auteur" : "Pizaro", 
+    "Techniques" : "Acrylique sur toile", 
+    "Style" : "Figuratif",
+    "Image":"./photos/bouske-lavi3.jpg",
+    "Tarif": "100 €"
+},
+
+{ 
+    "Titre" : "Bouske lavi", 
+    "Dimension" : "60cm x 50cm",
+    "Auteur" : "Pizaro", 
+    "Techniques" : "Acrylique sur toile",
+    "Style" :  "Figuratif",
+    "Image":"./photos/bouske-lavi1.jpg",
+    "Tarif": "500 €"
+},
+ 
+{
+    "Titre" : "Bouske lavi", 
+    "Dimension" : "60cm x 50cm",
+    "Auteur" : "Pizaro ",
+    "Techniques" : "Acrylique sur toile",
+    "Style" :"Figuratif",
+    "Image":"./photos/bouske-lavi4.jpg",
+    "Tarif": "500 €"
+},
+
+
+
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Alaby",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5707.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Casimir",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5708.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5711.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5712.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5713.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5714.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Alaby",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5715.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5717.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Junior",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5719.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "MajesT",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5720.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "St Vil H",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5722.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Junior",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5723.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Steeve",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5725.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5726.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "St Vil D",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5727.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Steeve",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5729.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Alcius",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5730.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5732.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Casimir",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5733.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Steeve",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5734.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5736.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5737.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Steeve",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5738.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Cadman Mathias",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5739.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5740.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5741.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5742.jpg",
+    "Tarif": ""
+},
+{
+    "Titre" : "", 
+    "Dimension" : "",
+    "Auteur" : "Cadman Mathias",
+    "Techniques" : "",
+    "Style" :"",
+    "Image":"./photos/IMG_5743.jpg",
+    "Tarif": ""
+}
+]

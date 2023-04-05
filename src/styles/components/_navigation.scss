@@ -1,0 +1,134 @@
+
+.navigation {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding:1rem;
+    background: $color-1;
+    
+
+  .navLink {
+    display: flex;
+    gap:1.5rem;
+
+    a {
+      padding: 0 1.5rem;
+
+      li {
+        color: $color-4;
+        transition: 0.2s;
+        cursor: pointer;
+        font-weight: 500;
+
+        &:hover {
+          color: $color-2;
+        }
+      }
+    }
+
+
+    .nav-active {
+      position: relative;
+
+      &::after {
+        content: "";
+        height: 4px;
+        width: 0;
+        background: $color-2;
+        position: absolute;
+        border-radius: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-animation: anim 0.3s ease forwards;
+        animation: anim 0.6s ease forwards;
+
+        @-webkit-keyframes anim {
+          to {
+            width: 100%;
+          }
+        }
+        @keyframes anim {
+          to {
+            width: 100%;
+          }
+        }
+      }
+    }
+    
+  }
+
+  .navBurger{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color:inherit;
+    border-color: transparent;
+    position: absolute;
+    right:2rem;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .navLink{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    right:-100vh;
+    bottom: 0;
+    width: 0;
+    height:100vh;
+    padding: 2rem;
+    visibility: hidden;
+    background: $color-3;
+    transition: all .8s ease-out;
+    z-index:1;
+  }
+  .showNavigation .navLink{
+    right: 0;
+    width: 30vw;
+    visibility: visible;
+  }
+  .navBurger:hover{
+    cursor: pointer;
+  }
+  .burger, .burger::before, .burger::after{
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    border-radius: 10px;
+    background-color: $color-2;
+    transition: all .4s ease-in-out;
+  }
+  .burger::before, .burger::after{
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+  .burger::before{
+    transform: translateY(-12px);
+  }
+  .burger::after{
+    transform: translateY(12px);
+  }
+  .showNavigation .burger{
+    width: 0;
+    background-color: transparent;
+    z-index:2
+  }
+  .showNavigation .burger::before{
+    transform: rotate(45deg);
+  }
+  .showNavigation .burger::after{
+    transform: rotate(-45deg);
+  }
+  .nav-active{
+    transform: translateY(100vh);
+  }
+  .showNavigation .nav-active{
+    transform: translateY(0);
+  }
+}
+

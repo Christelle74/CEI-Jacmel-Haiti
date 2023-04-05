@@ -1,0 +1,11 @@
+.logo {
+  @include horizontalCenter;
+  margin: 20px;
+
+  img {
+      height: 50px;
+  }
+  h3{
+    color: $white;
+  }
+}
